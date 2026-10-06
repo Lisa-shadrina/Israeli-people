@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Історія ізраїльського народу</title>
+    <style>
+        :root {
+            --primary-blue: #1d4ed8;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-color: #0f172a;
+            --blue-block-bg: #1e40af;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.8;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 680px;
+            margin: 40px auto;
+            background: var(--card-bg);
+            padding: 40px 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+        }
+
+        .header {
+            text-align: center;
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 25px;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            color: var(--primary-blue);
+            font-size: 30px;
+            margin: 0;
+            font-weight: 700;
+        }
+
+        .content p {
+            margin-bottom: 20px;
+            font-size: 17px;
+            color: var(--text-color);
+        }
+
+        /* Синій текст курсивом */
+        .blue-italic-text {
+            color: var(--primary-blue);
+            font-style: italic;
+            font-size: 17.5px;
+            margin: 25px 0;
+            padding-left: 15px;
+            border-left: 3px solid var(--primary-blue);
+        }
+
+        /* Відступ для звичайного чорно-білого тексту */
+        .indented-text {
+            margin-top: 30px;
+            margin-bottom: 25px;
+            padding-left: 10px;
+        }
+
+        /* Текст курсивом на синьому фоні */
+        .blue-bg-block {
+            background-color: var(--blue-block-bg);
+            color: #ffffff;
+            padding: 25px;
+            border-radius: 10px;
+            font-style: italic;
+            font-size: 17px;
+            margin: 25px 0;
+            box-shadow: 0 4px 12px rgba(30, 64, 175, 0.15);
+        }
+
+        .blue-bg-block p {
+            color: #ffffff;
+            margin-bottom: 15px;
+        }
+
+        .blue-bg-block p:last-child {
+            margin-bottom: 0;
+        }
+
+        .verse-ref {
+            display: block;
+            margin-top: 15px;
+            font-weight: 600;
+            font-style: normal;
+            color: #93c5fd;
+            text-align: right;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e2e8f0;
+            color: #64748b;
+            font-size: 14px;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                margin: 0;
+                border-radius: 0;
+                padding: 25px 18px;
+            }
+            .header h1 {
+                font-size: 24px;
+            }
+            .blue-bg-block {
+                padding: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h1>Історія ізраїльського народу</h1>
+        </div>
+
+        <div class="content">
+            <p>Прокручуючи в голові питання «Якби ж», ми калічимо себе духовно. Ми «підхоплюємо» хворобу «Якби ж», коли думаємо про те, чого в нас немає, а не про те, що в нас є. Ми незадоволені тим, що Бог нам дав. Коли ми підхоплюємо цю хворобу, то втрачаємо правильне сприйняття. Згадайте ізраїльтян:</p>
+
+            <div class="blue-italic-text">
+                «І ввійшли Ізраїлеві сини, уся громада, до пустині Цін першого місяця, та й засів народ у Кадеші. І померла там Маріям, і була там похована. І не було води для громади, і вони зібралися проти Мойсея та проти Аарона.
+            </div>
+
+            <p class="indented-text">І сварився той народ із Мойсеєм, та й сказали, говорячи:</p>
+
+            <div class="blue-bg-block">
+                <p>«О, якби ми повмирали були, коли наші брати вмирали перед Господнім лицем! І нащо ви привели Господню громаду на цю пустиню, щоб повмирали тут ми та худоба наша? І нащо ви вивели нас із Єгипту, щоб привести нас на це зле місце? Тут не родить збіжжя, ані фіги, ані виноград, ані гранатове яблуко, і навіть немає напитись води!»</p>
+                <span class="verse-ref">(Числа 20:1-5)</span>
+            </div>
+        </div>
+
+        <div class="footer">
+            Bible date
+        </div>
+    </div>
+
+</body>
+</html>
